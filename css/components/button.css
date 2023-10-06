@@ -1,0 +1,14 @@
+.avatar-container {
+  width: 100px; /* Set the width of the avatar container */
+  height: 100px; /* Set the height of the avatar container */
+  border-radius: 50%; /* Create a circular shape for the avatar */
+  overflow: hidden; /* Hide any content that exceeds the container */
+  background-color: #ccc; /* Set the background color for the avatar */
+}
+
+/* Avatar image */
+.avatar-image {
+  width: 100%; /* Make the image fill the avatar container */
+  height: 100%; /* Make the image fill the avatar container */
+  object-fit: cover; /* Maintain the aspect ratio and cover the container */
+}

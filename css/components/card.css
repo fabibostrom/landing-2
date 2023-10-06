@@ -1,0 +1,35 @@
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  margin: 10px;
+  flex-basis: 250px;
+  flex-grow: 1;
+  height: 150%; /* Set a fixed height for the card */
+  
+}
+
+.card img {
+  width: 150px;
+  height: 100PX;
+  border-radius: 6px;
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 15px;
+  font-size: 24px;
+}
+
+.cards {
+    margin-bottom: 40px; /* Add margin to create space between cards and survey */
+}
